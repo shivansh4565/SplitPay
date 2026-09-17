@@ -73,53 +73,6 @@ npm run test    # Runs splitAmount test suite
 npm start       # Starts server on port 5000
 ```
 
----
-
-## ⚡ How to Deploy on Vercel
-
-SplitPay is pre-configured with `vercel.json` for one-click deployment.
-
-### Method 1: Deploy via Vercel Dashboard (Recommended)
-
-1. Push your repository to **GitHub / GitLab / Bitbucket**.
-2. Go to [vercel.com](https://vercel.com/) and click **"Add New Project"**.
-3. Import your `splitpay` repository.
-4. Configure the project settings:
-   * **Framework Preset**: `Vite`
-   * **Root Directory**: `client` (or leave as root `./`)
-   * **Build Command**: `npm run build`
-   * **Output Directory**: `dist`
-5. Click **"Deploy"**.
-6. Your SplitPay app is live with SSL in under a minute!
-
----
-
-### Method 2: Deploy via Vercel CLI
-
-1. Install the Vercel CLI globally:
-   ```bash
-   npm install -g vercel
-   ```
-
-2. From the project root, run:
-   ```bash
-   vercel
-   ```
-
-3. Follow the prompts:
-   * Set up and deploy? **Yes**
-   * Which scope? **Select your account**
-   * Link to existing project? **No**
-   * Project name: **splitpay**
-   * Directory located: **./** (or **./client**)
-   * Override settings? **No**
-
-4. To deploy to production:
-   ```bash
-   vercel --prod
-   ```
-
----
 
 ## 📁 Project Structure
 
