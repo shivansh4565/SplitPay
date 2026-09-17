@@ -1,0 +1,21 @@
+{
+  "name": "upi-splitter-server",
+  "version": "1.0.0",
+  "description": "Lightweight API for SplitPay Direct UPI Splitter",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test utils/splitAmount.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
